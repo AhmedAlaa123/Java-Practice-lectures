@@ -7,8 +7,7 @@ public class Person {
     public String Color;  // سلسه نصيه    ahmed alaa  // ""
     public double Weight; // 7.45  // 0
     public double Length;
-    public boolean IsMale;  // false   // true or false
-    
+    public boolean IsMale;  // false   // true or false 
     /*
         Class Constuctor
     */  
@@ -20,11 +19,7 @@ public class Person {
         this.Weight=weight;
         this.Length=lenght;
         this.IsMale=_ismale;
-        
-        
     }
-     
-    
     /*
         class Methods And Functions
     */
@@ -34,6 +29,7 @@ public class Person {
         System.out.println("My Weight Is :"+this.Weight); 
         System.out.println("My Length Is :"+this.Length);
         System.out.println("My IsMale Is :"+this.IsMale);
+        System.out.println("Test");
     }
     
     
